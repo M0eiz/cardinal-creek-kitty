@@ -1,0 +1,76 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cute, playful font */
+    background-color: #fff0f5; /* Soft pink background */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #ffb6c1; /* Light pink header */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ff69b4; /* Hot pink */
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.images img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border: 5px solid #ff69b4; /* Pink border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.form {
+    background-color: #f0fff0; /* Soft green for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ff69b4;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ff69b4;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
